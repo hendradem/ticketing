@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hendraadem/Documents/c#example/c#example.csproj": {}
+    "/home/hendraadem/Documents/ticketing/c#example.csproj": {}
   },
   "projects": {
-    "/home/hendraadem/Documents/c#example/c#example.csproj": {
+    "/home/hendraadem/Documents/ticketing/c#example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hendraadem/Documents/c#example/c#example.csproj",
+        "projectUniqueName": "/home/hendraadem/Documents/ticketing/c#example.csproj",
         "projectName": "c#example",
-        "projectPath": "/home/hendraadem/Documents/c#example/c#example.csproj",
+        "projectPath": "/home/hendraadem/Documents/ticketing/c#example.csproj",
         "packagesPath": "/home/hendraadem/.nuget/packages/",
-        "outputPath": "/home/hendraadem/Documents/c#example/obj/",
+        "outputPath": "/home/hendraadem/Documents/ticketing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hendraadem/.nuget/NuGet/NuGet.Config"

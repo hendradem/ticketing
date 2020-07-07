@@ -18,18 +18,25 @@ namespace c_example{
 
      public class Tabungan {
 		
-        private double saldo=0;
+        private double saldo = 0;
+        // array (data event [nama event, tgl, harga tiket])
         
+
+        // Getter & Setter
         public void Menabung(double n) {
             saldo += n;
         }
         public void Mengambil(double n) {
             saldo -= n;
         }
+
+
         public double GetSaldo() {
             return saldo;
         }
     }
+
+   
 
 
 }

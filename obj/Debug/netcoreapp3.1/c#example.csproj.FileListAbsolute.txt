@@ -11,3 +11,16 @@
 /home/hendraadem/Documents/c#example/obj/Debug/netcoreapp3.1/c#example.dll
 /home/hendraadem/Documents/c#example/obj/Debug/netcoreapp3.1/c#example.pdb
 /home/hendraadem/Documents/c#example/obj/Debug/netcoreapp3.1/c#example.genruntimeconfig.cache
+/home/hendraadem/Documents/ticketing/bin/Debug/netcoreapp3.1/c#example
+/home/hendraadem/Documents/ticketing/bin/Debug/netcoreapp3.1/c#example.deps.json
+/home/hendraadem/Documents/ticketing/bin/Debug/netcoreapp3.1/c#example.runtimeconfig.json
+/home/hendraadem/Documents/ticketing/bin/Debug/netcoreapp3.1/c#example.runtimeconfig.dev.json
+/home/hendraadem/Documents/ticketing/bin/Debug/netcoreapp3.1/c#example.dll
+/home/hendraadem/Documents/ticketing/bin/Debug/netcoreapp3.1/c#example.pdb
+/home/hendraadem/Documents/ticketing/obj/Debug/netcoreapp3.1/c#example.csprojAssemblyReference.cache
+/home/hendraadem/Documents/ticketing/obj/Debug/netcoreapp3.1/c#example.AssemblyInfoInputs.cache
+/home/hendraadem/Documents/ticketing/obj/Debug/netcoreapp3.1/c#example.AssemblyInfo.cs
+/home/hendraadem/Documents/ticketing/obj/Debug/netcoreapp3.1/c#example.csproj.CoreCompileInputs.cache
+/home/hendraadem/Documents/ticketing/obj/Debug/netcoreapp3.1/c#example.dll
+/home/hendraadem/Documents/ticketing/obj/Debug/netcoreapp3.1/c#example.pdb
+/home/hendraadem/Documents/ticketing/obj/Debug/netcoreapp3.1/c#example.genruntimeconfig.cache

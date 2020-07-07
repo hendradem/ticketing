@@ -11,11 +11,14 @@ namespace c_example{
 
         }
 
-        private static void nbg(){
+         private static void nbg(){
+
+
             Tabungan bank = new Tabungan();
-            bank.Menabung(10000000);
+            bank.Menabung(10.000);
             bank.Mengambil(500000);
             Console.WriteLine(bank.GetSaldo());
+
         }
 
         private static bool MainMenu(){
