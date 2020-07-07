@@ -7,6 +7,15 @@ namespace c_example{
             while (showMenu){
                 showMenu = MainMenu();
             }
+
+
+        }
+
+        private static void nbg(){
+            Tabungan bank = new Tabungan();
+            bank.Menabung(10000000);
+            bank.Mengambil(500000);
+            Console.WriteLine(bank.GetSaldo());
         }
 
         private static bool MainMenu(){
@@ -31,7 +40,8 @@ namespace c_example{
                     RemoveWhitespace();
                     return true;
                 case "3":
-                    return false;
+                    nbg();
+                    return true;
                 default:
                     return true;
             }
