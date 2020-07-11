@@ -11,13 +11,14 @@ namespace c_example{
 
         }
 
-         private static void nbg(){
+         private static void eventList(){
 
+            Event eve = new Event();
+            eve.dataevent("");
+            Console.WriteLine(eve.getJenisEvent());
 
-            Tabungan bank = new Tabungan();
-            bank.Menabung(10.000);
-            bank.Mengambil(500000);
-            Console.WriteLine(bank.GetSaldo());
+            Console.Write("Press Enter to return to Main Menu");
+            Console.ReadLine();
 
         }
 
@@ -43,7 +44,7 @@ namespace c_example{
                     RemoveWhitespace();
                     return true;
                 case "3":
-                    nbg();
+                    eventList();
                     return true;
                 default:
                     return true;
