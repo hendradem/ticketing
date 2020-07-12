@@ -23,6 +23,7 @@ namespace ticketing{
             // Console.WriteLine("Nama Pemesan {0}", customer);
             // Console.WriteLine("Telp Pemesan {0}", customerPhone);
 
+            Console.WriteLine(" ");
             Console.WriteLine(" _________________________________________");
             Console.WriteLine("|                                         |");
             Console.WriteLine("|               YOUR TICKET               |");

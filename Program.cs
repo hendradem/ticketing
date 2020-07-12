@@ -39,7 +39,7 @@ namespace ticketing{
         }
 
         private static void bookEvents(){
-            Console.WriteLine("Masukkan jumlah");
+            Console.Write("For how many people : ");
             int size = Convert.ToInt32( Console.In.ReadLine() );
             string name, price, cust, phone;
             string[] mhs = new string[size];
@@ -47,24 +47,23 @@ namespace ticketing{
             bookEvent e = new bookEvent();
 
             for(int i=0; i<mhs.Length; i++){
-                Console.Write("Nama Event    : ");
+                Console.Write("Event Name    : ");
                 name = Console.ReadLine();
 
-                Console.Write("Harga Tiket   : ");
+                Console.Write("Event Prive   : ");
                 price = Console.ReadLine();
 
-                Console.Write("Nama Pemesan  : ");
+                Console.Write("Cust Name     : ");
                 cust = Console.ReadLine();
 
-                Console.Write("No HP Pemesan : ");
+                Console.Write("Cust Phone    : ");
                 phone = Console.ReadLine();
 
                 e.setEvent(name, price, cust, phone);
             }
 
             e.getEvent();
-            Console.Read();
-
+            
             Console.Write("\r\nPress Enter to return to Main Menu");
             Console.ReadLine();
         }
