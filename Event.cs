@@ -5,6 +5,7 @@ namespace ticketing{
         private string JenisEvent, eventName, eventPrice;
 
         public void dataevent (string JenisEvent){
+            
             string[,] events = new string[,]{
                 {"Seminar Nasional Narkoba" , "50.000" },
                 {"Working With MERN Stack" , "450.000" },

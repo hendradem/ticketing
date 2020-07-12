@@ -13,16 +13,9 @@ namespace ticketing{
             this.eventPrice = ePrice;
             this.customer   = eCust;
             this.customerPhone = ePhone;
-            // this.eventList[0] = eName;
-            // this.eventList[1] = ePrice;
         }
 
         public void getEvent(){
-            // Console.WriteLine("Event yang di pesan {0}", eventName);
-            // Console.WriteLine("Harga Tiket {0}", eventPrice);
-            // Console.WriteLine("Nama Pemesan {0}", customer);
-            // Console.WriteLine("Telp Pemesan {0}", customerPhone);
-
             Console.WriteLine(" ");
             Console.WriteLine(" _________________________________________");
             Console.WriteLine("|                                         |");
@@ -36,17 +29,6 @@ namespace ticketing{
             Console.WriteLine("|_________________________________________");
 
 
-
-
-
-
-
-
-
-            // for(int i=0; i<this.eventList.Length; i++){
-            //     Console.WriteLine("nama event {0}", eventList[0]);
-            //     Console.WriteLine("harga tiket {1}", eventList[1]);
-            // }
         }
 
 

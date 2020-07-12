@@ -63,20 +63,19 @@ namespace ticketing{
             }
 
             e.getEvent();
-            
+
             Console.Write("\r\nPress Enter to return to Main Menu");
             Console.ReadLine();
         }
 
 
         public static void eventList(){
-            Console.WriteLine("|---------------|------------|");
-            Console.WriteLine("|-----EVENT-----|----HARGA---|");
-            Console.WriteLine("|---------------|------------|");
             Event eve = new Event();
             eve.dataevent("");
-            Console.WriteLine(eve.getJenisEvent());
-            Console.ReadKey();
+            Console.Write(eve.getJenisEvent());
+            
+            Console.Write("\r\nPress Enter to return to Main Menu");
+            Console.ReadLine();
         }
 
         
@@ -95,12 +94,6 @@ namespace ticketing{
             DisplayResult(String.Concat(charArray));
         }
  
-        private static void RemoveWhitespace(){
-            Console.Clear();
-            Console.WriteLine("Remove Whitespace");
- 
-            DisplayResult(CaptureInput().Replace(" ", ""));
-        }
  
         private static void DisplayResult(string message){
             Console.WriteLine($"{message}");
