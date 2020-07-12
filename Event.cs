@@ -2,24 +2,34 @@ using System;
 namespace ticketing{
     
     class Event{
-        private string JenisEvent;
+        private string JenisEvent, eventName, eventPrice;
 
         public void dataevent (string JenisEvent){
-            string[,] Namaevent = new string[,]{
-                {"kondangan" , "50.000" },
-                {"makan-makan", "30.000" },
-                {"reuni","20.000" },
-                {"wisuda","100.000" },
-                {"coronavirus", "unlimited" }
+            string[,] events = new string[,]{
+                {"Seminar Nasional Narkoba" , "50.000" },
+                {"Working With MERN Stack" , "450.000" },
+                {"Getting Started with GO" , "free" },
+                {"Branding and Copywriting" , "70.000" },
+                {"Understanding the weid parts of Javascript" , "180.000" },
             };
 
-            for(int i = 0; i <= Namaevent.GetUpperBound(0); i++){
-                string Kegiatan = Namaevent[i, 0];
-                string HTM = Namaevent[i, 1];
-                Console.WriteLine("{0} {1}", Kegiatan,HTM);
+            for(int i = 0; i <= events.GetUpperBound(0); i++){
+                this.eventName  = events[i, 0];
+                this.eventPrice = events[i, 1];
+
+                Console.WriteLine(" ");
+                Console.WriteLine(" _________________________________________");
+                Console.WriteLine("|                                         |");
+                Console.WriteLine("|             AVAILABLE EVENTS            |");
+                Console.WriteLine("|_________________________________________|");
+                Console.WriteLine("|                                         ");
+                Console.WriteLine("| Event Name  : {0}", eventName           );
+                Console.WriteLine("| Event Price : {0}", eventPrice          );
+                Console.WriteLine("|_________________________________________");
+
             }
 
-            Console.ReadLine();
+            Console.Read();
         }
         public string getJenisEvent(){
             return this.JenisEvent;
