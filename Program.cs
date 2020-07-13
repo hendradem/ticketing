@@ -21,7 +21,7 @@ namespace ticketing{
             Console.WriteLine("|                                 |");
             Console.WriteLine("| 1.HOME |  2.BOOK | 3.EVENT LIST |");
             Console.WriteLine("|_________________________________|");
-            Console.Write("\r\nSelect an option: ");
+            Console.Write("\r\nPilih Menu: ");
  
             switch (Console.ReadLine()){
                 case "1":
