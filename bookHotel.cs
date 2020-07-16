@@ -13,16 +13,10 @@ namespace ticketing{
             this.selamaDay = sDay;
             this.pricePerMalam = pPerMalam;
             this.totalPrice = tPrice;
-            // this.eventList[0] = eName;
-            // this.eventList[1] = ePrice;
         }
 
         public void getHotel()
         {
-            // Console.WriteLine("Event yang di pesan {0}", eventName);
-            // Console.WriteLine("Harga Tiket {0}", eventPrice);
-            // Console.WriteLine("Nama Pemesan {0}", customer);
-            // Console.WriteLine("Telp Pemesan {0}", customerPhone);
 
             Console.WriteLine(" ");
             Console.WriteLine(" _________________________________________");
@@ -37,16 +31,6 @@ namespace ticketing{
             Console.WriteLine("|_________________________________________");
 
         }
-
-
-
-
-
-
-
-
-
-
 
 
 
